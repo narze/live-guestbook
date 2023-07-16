@@ -15,7 +15,7 @@ export type Data = {
 
 export const posts = writable<Post[]>([]);
 
-const adapter = new JSONFile<Data>('./db.json');
+const adapter = new JSONFile<Data>(process.env.VERCEL_ENV ? '/tmp/db.json' : './db.json');
 const defaultData = { posts: [] };
 const db = new Low<Data>(adapter, defaultData);
 

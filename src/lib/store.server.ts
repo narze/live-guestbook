@@ -9,7 +9,7 @@ export interface Post {
 	timestamp: number;
 }
 
-type Data = {
+export type Data = {
 	posts: Post[];
 };
 

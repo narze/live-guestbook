@@ -8,6 +8,8 @@
 	<div class="py-4">
 		<h1>Live Guestbook</h1>
 
+		<p><a href="/show">View</a></p>
+
 		{#if form?.success}
 			<p>Thank you {form?.name}!</p>
 		{/if}

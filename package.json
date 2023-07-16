@@ -35,6 +35,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"lowdb": "^6.0.1"
+		"lowdb": "^6.0.1",
+		"svelte-carousel": "^1.0.25"
 	}
 }

@@ -1,18 +1,6 @@
-# create-svelte
+# Live Guestbook
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
-
-## Creating a project
-
-If you're seeing this, you've probably already done this step. Congrats!
-
-```bash
-# create a new project in the current directory
-npm create svelte@latest
-
-# create a new project in my-app
-npm create svelte@latest my-app
-```
+A simple guestbook that can be viewed in a carousel, uses [lowdb](https://github.com/typicode/lowdb) to persist entries in a json file.
 
 ## Developing
 

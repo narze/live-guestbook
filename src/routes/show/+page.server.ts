@@ -10,5 +10,8 @@ export const load = (async ({ params }) => {
 	const db = new Low<Data>(adapter, defaultData);
 	await db.read();
 
-	return { posts: db.data.posts };
+	// Get only 20 recent posts
+	const posts = db.data.posts.reverse().slice(0, 20);
+
+	return { posts };
 }) satisfies PageServerLoad;

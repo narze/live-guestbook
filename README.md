@@ -2,6 +2,8 @@
 
 A simple guestbook that can be viewed in a carousel, uses [lowdb](https://github.com/typicode/lowdb) to persist entries in a json file.
 
+Live demo is available on Vercel https://live-guestbook.vercel.app
+
 ## Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
